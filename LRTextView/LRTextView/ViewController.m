@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor grayColor];
-    
+    //这是一个实例
     LRPlaceholderTextView *textView = [[LRPlaceholderTextView alloc] init];
     textView.frame = CGRectMake(50, 200, 200, 60);
     textView.placeholder = @"亲~ 请添加您的备注信息!";
